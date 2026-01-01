@@ -14,32 +14,37 @@
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
-    <header class="header">
-      <div class="header-container">
-        <h1>&lt;/html&gt;</h1>
-        <p>закрывающий тег</p>
+    <header class="top-section page__header">
+      <div class="top-section__text">
+        <span class="main-heading">&lt;/HTML&gt;</span>
+        <h1 class="subtitle">Закрывающий тег</h1>
       </div>
     </header>
     <main>
-      <ul class="cards">
-        <li class="card-item">
-          <article class="card-content">
-            <header class="card-header">
-              <h2 class="card-head">Фритрек и нулевой спринт: Подготовка к работе</h2>
+      <ul class="posts">
+        <li class="posts__item">
+          <article class="content">
+            <header class="content__title-section">
+              <h2 class="content__heading">
+                Фритрек и нулевой спринт: Подготовка к работе
+              </h2>
             </header>
-            <div class="card-media">
-              <span>&lt;/html&gt;</span>
+            <div class="content__media">
+              <span class="content__media-label">&lt;/HTML&gt;</span>
               <img
                 class="content__media-img"
                 src="./images/bus_1.png"
                 alt="Картинка с автобусом"
               />
             </div>
-            <div class="card-description">
+            <div class="content__description">
               <p>
-                Это было самое начало пути. На этом этапе важно было проникнуться основами
-                 и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять
-                  на ваше будущее.
+                Это было самое начало пути. На этом этапе важно было
+                проникнуться основами и настроиться на учёбу. И, возможно,
+                подумать, как новые знания могут повлиять на ваше будущее.
+              </p>
+              <p>
+                Мне было интересно узнать, как устроена frontend-часть сайта.
               </p>
             </div>
             <footer class="content__controls">
@@ -77,32 +82,36 @@
               <button
                 id="article_1_like_button"
                 type="button"
-                class="button card__like-button">
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
           </article>
         </li>
-        <li class="card-item">
-          <article class="card-content">
-            <header class="card-header">
-              <h2 class="card-head">1 спринт: Я — чистый лист</h2>
+        <li class="posts__item">
+          <article class="content">
+            <header class="content__title-section">
+              <h2 class="content__heading">1 спринт: Я — чистый лист</h2>
             </header>
-            <div class="card-media">
-              <span>&lt;/html&gt;</span>
+            <div class="content__media">
+              <span class="content__media-label">&lt;/HTML&gt;</span>
               <img
-                class="content__media-img"
+                class="content__media-img filter-grayscale"
                 src="./images/bus_1.png"
                 alt="Картинка с автобусом"
               />
             </div>
-            <div class="card-description">
+            <div class="content__description">
               <p>
-                На первых этапах мы работали со страхами и сомнениями, которые часто испытывают
-                 новички. Один из них — страх перед чистым листом. Это, конечно же, намного сложнее,
-                  чем боязнь куска бумаги. Часто за этим ощущением скрываются более глубокие вопросы:
-                   с чего начать? а вдруг будет слишком сложно? что, если я не справлюсь?
+                На первых этапах мы работали со страхами и сомнениями, которые
+                часто испытывают новички. Один из них — страх перед чистым
+                листом. Это, конечно же, намного сложнее, чем боязнь куска
+                бумаги. Часто за этим ощущением скрываются более глубокие
+                вопросы: с чего начать? а вдруг будет слишком сложно? что, если
+                я не справлюсь?
               </p>
+              <p>В первом спринте было мало тем, я его очень быстро прошла.</p>
             </div>
             <footer class="content__controls">
               <button type="button" class="card__icon-button">
@@ -137,34 +146,35 @@
                 </svg>
               </button>
               <button
-                id="article_1_like_button"
+                id="article_2_like_button"
                 type="button"
-                class="button card__like-button">
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
           </article>
         </li>
-        <li class="card-item">
-          <article class="card-content">
-            <header class="card-header">
-              <h2 class="card-head">1 спринт: А если не получится?</h2>
+        <li class="posts__item">
+          <article class="content">
+            <header class="content__title-section">
+              <h2 class="content__heading">1 спринт: А если не получится?</h2>
             </header>
-            <div class="card-media">
-              <span>css</span>
+            <div class="content__media">
+              <span class="content__media-label">&lt;CSS&gt;</span>
               <img
-                class="content__media-img"
+                class="content__media-img filter-saturate"
                 src="./images/bus_1.png"
                 alt="Картинка с автобусом"
               />
             </div>
-            <div class="card-description">
+            <div class="content__description">
               <p>
-                На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять,
-                 как много ещё впереди. Вы могли попытаться погнаться за идеалом и понять, что
-                  он недостижим. А, может, вы вовсе и не подвержены перфекционизму и вместо того,
-                   чтобы сделать идеально, старались просто сделать.
+                Первый проект — позади! Но это всё ещё самое начало пути.
+                Радость могла быстро померкнуть и смениться ожиданием провала.
+                Или вы, наоборот, могли вдохновиться успехами и поверить в себя.
               </p>
+              <p>Это было непросто, но мне понравилось.</p>
             </div>
             <footer class="content__controls">
               <button type="button" class="card__icon-button">
@@ -199,33 +209,37 @@
                 </svg>
               </button>
               <button
-                id="article_1_like_button"
+                id="article_3_like_button"
                 type="button"
-                class="button card__like-button">
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
           </article>
         </li>
-        <li class="card-item">
-          <article class="card-content">
-            <header class="card-header">
-              <h2 class="card-head">2 спринт: Погоня за идеалом</h2>
+        <li class="posts__item">
+          <article class="content">
+            <header class="content__title-section">
+              <h2 class="content__heading">2 спринт: Погоня за идеалом</h2>
             </header>
-            <div class="card-media">
-              <span>&lt;desigions&gt;</span>
+            <div class="content__media">
+              <span class="content__media-label">&lt;desigions&gt;</span>
               <img
-                class="content__media-img"
+                class="content__media-img filter-multiple"
                 src="./images/bus_1.png"
                 alt="Картинка с автобусом"
               />
             </div>
-            <div class="card-description">
+            <div class="content__description">
               <p>
-                Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро
-                 померкнуть и смениться ожиданием провала. Или вы, наоборот, могли вдохновиться
-                  успехами и поверить в себя.
+                На этом этапе вы уже достаточно разбирались в основах вёрстки,
+                чтобы понять, как много ещё впереди. Вы могли попытаться
+                погнаться за идеалом и понять, что он недостижим. А, может, вы
+                вовсе и не подвержены перфекционизму и вместо того, чтобы
+                сделать идеально, старались просто сделать.
               </p>
+              <p>Мне было интересно продолжить изучение вёрстки.</p>
             </div>
             <footer class="content__controls">
               <button type="button" class="card__icon-button">
@@ -260,33 +274,40 @@
                 </svg>
               </button>
               <button
-                id="article_1_like_button"
+                id="article_4_like_button"
                 type="button"
-                class="button card__like-button">
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
           </article>
         </li>
-        <li class="card-item">
-          <article class="card-content">
-            <header class="card-header">
-              <h2 class="card-head">2 спринт: О тех, кто рядом</h2>
+        <li class="posts__item">
+          <article class="content">
+            <header class="content__title-section">
+              <h2 class="content__heading">2 спринт: О тех, кто рядом</h2>
             </header>
-            <div class="card-media">
-              <span>care</span>
+            <div class="content__media">
+              <span class="content__media-label">care</span>
               <img
-                class="content__media-img"
+                class="content__media-img filter-invert"
                 src="./images/bus_1.png"
                 alt="Картинка с автобусом"
               />
             </div>
-            <div class="card-description">
+            <div class="content__description">
               <p>
-                Всё это время вы были не одиноки (хотя, возможно, иногда и чувствовали, что
-                 одни против целого мира). Вас окружали одногруппники, команда сопровождения
-                  и просто близкие люди, которым можно пожаловаться, если очередной макет просто
-                   так не поддавался. Осваивать что-то новое легче, когда рядом есть единомышленники, не правда ли?
+                Всё это время вы были не одиноки (хотя, возможно, иногда и
+                чувствовали, что одни против целого мира). Вас окружали
+                одногруппники, команда сопровождения и просто близкие люди,
+                которым можно пожаловаться, если очередной макет просто так не
+                поддавался. Осваивать что-то новое легче, когда рядом есть
+                единомышленники, не правда ли?
+              </p>
+              <p>
+                Во втором спринте было много новой информации, это было непросто
+                запомнить.
               </p>
             </div>
             <footer class="content__controls">
@@ -322,33 +343,35 @@
                 </svg>
               </button>
               <button
-                id="article_1_like_button"
+                id="article_5_like_button"
                 type="button"
-                class="button card__like-button">
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
           </article>
         </li>
-        <li class="card-item">
-          <article class="card-content">
-            <header class="card-header">
-              <h2 class="card-head">3 спринт: Обходные стратегии</h2>
+        <li class="posts__item">
+          <article class="content">
+            <header class="content__title-section">
+              <h2 class="content__heading">3 спринт: Обходные стратегии</h2>
             </header>
-            <div class="card-media">
-              <span>support</span>
+            <div class="content__media">
+              <span class="content__media-label">&lt;support&gt;</span>
               <img
-                class="content__media-img"
+                class="content__media-img filter-sepia"
                 src="./images/bus_1.png"
                 alt="Картинка с автобусом"
               />
             </div>
-            <div class="card-description">
+            <div class="content__description">
               <p>
-                На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло
-                 показаться, что решения просто иссякли. Значит, пришло время посмотреть на
-                  задачу под другим углом.
+                На этом курсе вы постоянно решали разные задачи. В какой-то
+                момент вам могло показаться, что решения просто иссякли. Значит,
+                пришло время посмотреть на задачу под другим углом.
               </p>
+              <p>Да, обходные решения - это полезно.</p>
             </div>
             <footer class="content__controls">
               <button type="button" class="card__icon-button">
@@ -383,33 +406,41 @@
                 </svg>
               </button>
               <button
-                id="article_1_like_button"
+                id="article_6_like_button"
                 type="button"
-                class="button card__like-button">
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
           </article>
         </li>
-        <li class="card-item">
-          <article class="card-content">
-            <header class="card-header">
-              <h2 class="card-head">3 спринт: Когда опускаются руки</h2>
+        <li class="posts__item">
+          <article class="content">
+            <header class="content__title-section">
+              <h2 class="content__heading">3 спринт: Когда опускаются руки</h2>
             </header>
-            <div class="card-media">
-              <span>&lt;lifes-style: none;&gt;</span>
+            <div class="content__media">
+              <span class="content__media-label"
+                >&lt;lifes-style: none;&gt;</span
+              >
               <img
-                class="content__media-img"
+                class="content__media-img filter-blur"
                 src="./images/bus_1.png"
                 alt="Картинка с автобусом"
               />
             </div>
-            <div class="card-description">
+            <div class="content__description">
               <p>
-                Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься.
-                 Вроде и проектную пора сдавать, и задачи хочется порешать, и в теории получше
-                  разобраться, и жизнь не забыть пожить. В такие моменты очень нужна концентрация.
-                   Вспомните, откуда вы её черпали.
+                Во время учёбы часто возникает чувство, когда не знаешь, за что
+                хвататься. Вроде и проектную пора сдавать, и задачи хочется
+                порешать, и в теории получше разобраться, и жизнь не забыть
+                пожить. В такие моменты очень нужна концентрация. Вспомните,
+                откуда вы её черпали.
+              </p>
+              <p>
+                Третий спринт был самым простым для меня, мне понравилось
+                адаптировать сайты под разных пользователей.
               </p>
             </div>
             <footer class="content__controls">
@@ -445,35 +476,38 @@
                 </svg>
               </button>
               <button
-                id="article_1_like_button"
+                id="article_7_like_button"
                 type="button"
-                class="button card__like-button">
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
           </article>
         </li>
-        <li class="card-item">
-          <article class="card-content">
-            <header class="card-header">
-              <h2 class="card-head">«Сейчас я здесь»</h2>
+        <li class="posts__item">
+          <article class="content">
+            <header class="content__title-section">
+              <h2 class="content__heading">«Сейчас я здесь»</h2>
             </header>
-            <div class="card-media">
-              <span>&lt;experience&gt;</span>
+            <div class="content__media">
+              <span class="content__media-label">&lt;experience&gt;</span>
               <img
-                class="content__media-img"
+                class="content__media-img filter-hue-rotate"
                 src="./images/bus_1.png"
                 alt="Картинка с автобусом"
               />
             </div>
-            <div class="card-description">
+            <div class="content__description">
               <p>
-                Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых,
-                 впереди ещё много материала про «красотищу». Во-вторых, с окончанием курса 
-                 учёба не заканчивается. Вёрстка — это целый мир. И этот мир постоянно меняется.
-                  Познать его полностью не получится, но это тот случай, когда важен сам процесс
-                   познания. Ведь часто путь — и есть результат.
+                Сейчас вы уже очень много знаете о вёрстке. Но это только
+                начало. Во-первых, впереди ещё много материала про «красотищу».
+                Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка —
+                это целый мир. И этот мир постоянно меняется. Познать его
+                полностью не получится, но это тот случай, когда важен сам
+                процесс познания. Ведь часто путь — и есть результат.
               </p>
+              <p>Спринты на семестр почти закрыты, это очень хорошо.</p>
             </div>
             <footer class="content__controls">
               <button type="button" class="card__icon-button">
@@ -508,9 +542,10 @@
                 </svg>
               </button>
               <button
-                id="article_1_like_button"
+                id="article_8_like_button"
                 type="button"
-                class="button card__like-button">
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
